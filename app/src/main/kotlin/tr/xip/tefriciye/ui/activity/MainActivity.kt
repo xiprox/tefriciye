@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         root.viewTreeObserver.addOnGlobalLayoutListener(object : ViewTreeObserver.OnGlobalLayoutListener {
             override fun onGlobalLayout() {
                 pager.adapter = CardsPagerAdapter(this@MainActivity, root)
-                root.viewTreeObserver.removeOnGlobalLayoutListener(this)
+                root.viewTreeObserver.removeGlobalOnLayoutListener(this)
             }
         })
 
