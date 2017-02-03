@@ -77,7 +77,7 @@
                 android:layout_height="wrap_content"
                 app:fabSize="mini"
                 app:rippleColor="@android:color/white"
-                app:srcCompat="@drawable/ic_minus_1_black_24dp"
+                app:srcCompat="@drawable/ic_remove_black_24dp"
                 app:useCompatPadding="true" />
 
             <android.support.design.widget.FloatingActionButton
@@ -86,7 +86,7 @@
                 android:layout_height="wrap_content"
                 app:fabSize="mini"
                 app:rippleColor="@android:color/white"
-                app:srcCompat="@drawable/ic_plus_1_black_24dp"
+                app:srcCompat="@drawable/ic_add_black_24dp"
                 app:useCompatPadding="true" />
         </LinearLayout>
     </LinearLayout>
