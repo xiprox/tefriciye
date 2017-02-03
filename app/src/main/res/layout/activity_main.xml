@@ -53,7 +53,7 @@
             android:text="0"
             android:textColor="@android:color/white"
             android:textSize="114sp"
-            tools:ignore="HardcodedText"
+            tools:ignore="HardcodedText,UnusedAttribute"
             tools:text="99999" />
 
         <LinearLayout
