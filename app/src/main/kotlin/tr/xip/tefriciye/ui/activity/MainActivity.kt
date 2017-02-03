@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun plus(amount: Int = 1) {
-        if (count == 9999) return
+        if (count == 99999) return
 
         count += Math.abs(amount)
         notifyCountChanged()
