@@ -1,4 +1,4 @@
-package tr.xip.tefriciye
+package tr.xip.tefriciye.ui.activity
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.ViewTreeObserver
 import kotlinx.android.synthetic.main.activity_main.*
+import tr.xip.tefriciye.R
 import tr.xip.tefriciye.ui.adapter.CardsPagerAdapter
 import tr.xip.tefriciye.ui.widget.FlipPageViewTransformer
 
